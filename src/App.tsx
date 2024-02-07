@@ -14,7 +14,6 @@ interface Movies {
 function App() {
 
   const [movies, setMovies] = useState<Movies[]>([]);
-  const [selectedMovie, setSelectedMovie] = useState<Movies | null>(null);
 
 
   const apiKey = "7322b1051ef3a67850d2bd68e3e251d8"
